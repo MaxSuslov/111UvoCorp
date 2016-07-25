@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iWrite</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet"  href="styleNew.css">
+</head>
+<body>
+	<nav>
+		<div class="iwrite">
+            <img id="logoPen" src='img/Logo.svg' alt="Logo Pen">
+            <img id="iWrite" src="img/iWriteLogo.svg" alt="iWrite Logo">
+        </div>
+        <div class="orders">
+            <img id="coverWhite" src="img/couvert.svg" alt="white cover">
+            <div id="ordersNav">
+                ORDERS
+            </div>
+        </div>
+        <div class="support">
+            <img id="supportLogo" src="img/Support.svg" alt="ring-buoy">
+            <div id="supportText">
+                SUPPORT
+            </div>
+        </div>
+        <div class="profile">
+            <img id="gearLogo" src="img/Gear.svg" alt="gear logo">
+            <div id="profileNav">
+                PROFILE
+            </div>
+        </div>
+        <div class="balance">
+            <img id="portmoneLogo" src="img/portmone.svg" alt="purse logo">
+            <div id="balanceNav">
+                BALANCE
+            </div>
+            <div class="usdBalance">
+                <span id="usd40">$ 40.00</span><br/>
+                <span id="usd50">$ 50.60</span>
+            </div>
+        </div>
+        <div class="newOrder">
+            <!--<img id="borderOrder" src="img/borderNewOrder.svg" alt="Border New Order">-->
+            <!--<img id="plus" src="img/Plus.svg" alt="Plus or add order">-->
+            <!--<img id="newOrderText" src="img/New-order.svg" alt="New Order">-->
+            <a href="#" title="Label" class="button green">+ NEW ORDER</a>
+        </div>
+        <div class="favorite">
+            <img id="heart" src="img/Heart.svg" alt="Heart">
+        </div>
+       <div class="ringMyBell">
+           <img id="bell" src="img/Bell.svg" alt="Bell or message">
+           <img id="newMessage" src="img/Message-new.svg" alt="new message">
+       </div>
+        <div class="userPic">
+            <img id="userRoundBorder" src="img/userRoundBorder.svg" alt="Avatar Border white">
+            <img id="avatarEmpty" src="img/avatarEmpty.svg" alt="Empty user avatar">
+            <img id="userChoose" src="img/downarrow.svg" alt="arrow down to change user">
+        </div>
+	</nav>
+	<div class="wrapper">
+		<div class="orderRubrics">
+            <div class="recentOrders">
+                <img id="recentOrdersText" src="img/Recent-.svg" alt="Resent Orders">
+                <img id="greenLineHoriz" src="img/Rectangle-greenhoriz.svg" alt="Resend Orders Underlined">
+            </div>
+            <div class="finishedOrders">
+                <img id="finishedOrdersText" src="img/Finished.svg" alt="/Finished Orders">
+                <img id="polygon" src="img/Polygon-white.svg" alt="Polygon white to select rubric">
+            </div>
+            <div class="cancelledOrders">
+                <img id="cancelledOrdersText" src="img/Canceled.svg" alt="Cancelled Orders">
+            </div>
+            <div class="sorted">
+                <img id="idSorted" src="img/sorted-by-ID.svg" alt="sorted by ID">
+                <img id="sortTypeArrow" src="img/downarrow.svg" alt="arrow down to choose sorting type">
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentBar">
+                <img id="title" src="img/Title.svg" alt="Title header">
+                <img id="deadline" src="img/Deadline.svg" alt="Deadline header">
+                <img id="status" src="img/Status.svg" alt="Status header">
+                <img id="assignedTo" src="img/Assigned-to.svg" alt="Title header">
+                <img id="pricePaid" src="img/pricePaid.svg" alt="Deadline header">
+                <img id="idHeader" src="img/idHeader.svg" alt="Status header">
+            </div>
+            <div class="content1InProgress">
+                <img src="img/Rectangle-greenverticalFull.svg" alt="Background content1">
+                <div class="titleContent1">
+                    <img id="whatIsState" src="img/WhatisStateReg.png" alt="What is State Regulations?">
+                    <img id="psychologyAnd" src="img/Psychology-and.png" alt="Deadline header">
+                </div>
+                <div class="deadlineContent1">
+                    <img id="may28" src="img/May-28.png" alt="May, 28">
+                    <img id="fourDaysLeft" src="img/4days-left.png" alt="4 days left">
+                </div>
+                <div class="statusContent1">
+                    <img id="progress" src="img/Progress-(pages-1-of-5).png" alt="Progress pages 1 of 5">
+                    <img id="greenProgressBar" src="img/greenGray5line.png" alt="Gray background progress bar">
+                    <img id="greenProgressBar2" src="img/greenOneOf5.png" alt="Green progress bar">
+
+                </div>
+                <div class="assignedToContent1">
+                    <img id="kinGcheloAva" src="img/kinGchiImg.svg" alt="Avatar Kingchelo">
+                    <img id="greenPointKingChe" src="img/Message-new.svg" alt="Green point online">
+                    <img id="kinGcheloName" src="img/kinGchelo.png" alt="Name Kingchelo">
+                    <img id="starKingChe" src="img/Star.svg" alt="Golden Star">
+                    <img id="score9_8" src="img/9_8.png" alt="score 9.8">
+                </div>
+                <div class="pricePaidContent1">
+                    <img id="usd1250" src="img/1250.png" alt="1250 usd">
+                    <img id="usd100" src="img/100.png" alt="100 usd">
+                </div>
+                <div class="idContent1">
+                    <img id="id34453456" src="img/34453456.png" alt="id34453456">
+                </div>
+            </div>
+            <div class="content2Bidding">
+                <img src="img/BlueVerticalMutedFull.svg" alt="Background Bidding">
+                <img id="messageBidding" src="img/MessageBidding2.svg" alt="Message Bidding">
+                <img id="messageBiddingCircle" src="img/BlueEllipseBidding.svg" alt="Message Bidding">
+                <div class="titleContent2">
+                    <img id="microeconomic" src="img/Microeconomic-.png" alt="Microeconomic">
+                    <img id="coursework" src="img/Coursework,-Health-Care.png" alt="Coursework">
+                </div>
+                <div class="deadlineContent2">
+                    <img id="may25" src="img/May-25.png" alt="May, 25">
+                    <img id="hoursLeft22" src="img/22-hours-left.png" alt="22 hours left">
+                </div>
+                <div class="statusContent1">
+                    <img id="bidding" src="img/Bidding.svg" alt="Bidding process">
+                    <img id="blueProgressBar" src="img/BlueBarBidding.svg" alt="Blue progress bar">
+                </div>
+                <div class="assignedToContent2">
+                    <img id="bids35" src="img/35-bids.png" alt="35 bids">
+                </div>
+                <div class="pricePaidContent2">
+                    <img id="usd230" src="img/usd230.png" alt="230 usd">
+                    <img id="usd0" src="img/usd0.png" alt="0 usd">
+                </div>
+                <div class="idContent2">
+                    <img id="id34453422" src="img/34453422.png" alt="id34453422">
+                </div>
+            </div>
+            <div class="content3Canceled">
+                <img src="img/RedVerticalNarrow.png" alt="Background content3">
+                <div class="titleContent3">
+                    <img id="whyLying" src="img/why-lying-and-stealing-is-wrong-.png" alt="Why lying and stealing is wrong?">
+                    <img id="essay" src="img/EssayAny-type.png" alt="Essay any type">
+                </div>
+                <div class="deadlineContent3">
+                    <img id="july02" src="img/Jul-02.png" alt="July, 02">
+                    <img id="hoursLeft2" src="img/2-hours-left.png" alt="2 hours left">
+                </div>
+                <div class="statusContent3">
+                    <img id="canceled" src="img/Canceled-automatically.svg" alt="Progress pages 1 of 5">
+                    <img id="redProgressBar" src="img/RedBarCancelled.svg" alt="Red progress bar">
+                </div>
+                <div class="assignedToContent3">
+                    <img id="schofieldAva" src="img/SchonfieldUserPic.svg" alt="Avatar Schofield">
+                    <img id="schofieldName" src="img/Schofield.png" alt="Name Schofield">
+                    <img id="starSchofield" src="img/StarMuted.svg" alt="Golden Star Muted">
+                    <img id="score8_9" src="img/8_9.png" alt="score 8.9">
+                </div>
+                <div class="pricePaidContent3">
+                    <img id="usd30" src="img/usd30.png" alt="30 usd">
+                    <img id="usd0Muted" src="img/usd0MutedCancelled.png" alt="0 usd">
+                </div>
+                <div class="idContent3">
+                    <img id="id34453422Muted" src="img/34453422Muted.png" alt="id 34453422 Muted">
+                </div>
+            </div>
+            <img id="placeOrder" src="img/Just-place-an-order.png" alt="Just place an order">
+        </div>
+    </div>
+</body>
+</html>

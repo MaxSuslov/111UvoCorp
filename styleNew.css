@@ -1,0 +1,723 @@
+/*styles reset*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 1rem;
+}
+body {
+    font-size: 100%;
+}
+a img, :link img, :visited img {
+    border: 0;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("/fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("/fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/*Navigation bar*/
+
+nav {
+    max-width: 1400px;
+    height: 80px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #deb15a;
+    box-shadow: 0 3px 15px #888888;
+    z-index: 100;
+}
+
+nav div {
+	/*position: relative;*/
+    display: inline-block;
+}
+
+nav img {
+    position: absolute;
+    /*display: inline-block;*/
+}
+
+#logoPen {
+	/*width: 1.43rem;*/
+	/*height: 24px;*/
+	/*top: 27px;*/
+	/*left: 120px;*/
+    width: 1.64%;
+    height: auto;
+    top: 33.75%;
+    left: 8.9%;
+}
+
+#iWrite {
+    /*width: 4.43rem;*/
+    /*height: 24px;*/
+    /*top: 26px;*/
+    /*left: 147px;*/
+    width: 5.07%;
+    height: auto;
+    top: 32.5%;
+    left: 10.9%;
+}
+
+#coverWhite {
+    /*width: 1.375rem;*/
+    width: 1.6%;
+    height: auto;
+    top: 41.2%;
+    left: 23.5%;
+}
+
+#ordersNav {
+    /*width: 55px;*/
+    /*width: 3.43rem;*/
+    /*width: 3.9%;*/
+    /*height: auto;*/
+    top: 43%;
+    left: 26%;
+    position: absolute;
+    font-family: "Fira Sans Medium", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+}
+
+#supportLogo {
+     /*width: 17px;*/
+     /*height: 17px;*/
+     /*top: 33px;*/
+     /*left: 445px;*/
+    width: 1.2%;
+    height: auto;
+    top: 41.25%;
+    left: 33%;
+ }
+
+#supportText {
+    position: absolute;
+    font-family: "Fira Sans Medium", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #635f4f;
+    /*width: 64px;*/
+    /*height: 11px;*/
+    top: 43%;
+    left: 35%;
+}
+
+#gearLogo {
+    /*width: 17px;*/
+    /*height: 17px;*/
+    /*top: 33px;*/
+    /*left: 575px;*/
+    width: 1.21%;
+    height: auto;
+    top: 41.25%;
+    left: 42.5%;
+}
+
+#profileNav {
+    /*width: 55px;*/
+    /*height: 11px;*/
+    position: absolute;
+    font-family: "Fira Sans Medium", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #635f4f;
+    top: 43%;
+    left: 44.7%;
+}
+
+#portmoneLogo {
+    width: 1.2%;
+    height: auto;
+    top: 31px;
+    left: 51.5%;
+}
+
+#balanceNav {
+    position: absolute;
+    font-family: "Fira Sans Medium", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #635f4f;
+    top: 43%;
+    left: 53.5%;
+ }
+
+.usdBalance  {
+    display: block;
+}
+
+#usd40 {
+    position: absolute;
+    font-family: "Fira Sans Regular", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #424F5E;
+    top: 35.25%;
+    left: 58.9%;
+}
+
+#usd50 {
+    position: absolute;
+    font-family: "Fira Sans Regular", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgba(51,102,102,.8);
+    top: 54.25%;
+    left: 58.9%;
+}
+
+.button {
+    position: absolute;
+    cursor:pointer;
+    display:block;
+    height:65%;
+    width:9.5%;
+    left: 73.5%;
+    top: 17.5%;
+    /*line-height:70px;*/
+    text-align:center;
+    background-image:url('img/borderNewOrder.svg');
+    background-repeat:no-repeat;
+}
+
+#borderOrder {
+    width: 140px;
+    height: 52px;
+    top: 14px;
+    left: 985px;
+}
+
+#plus {
+     width: 16px;
+     height: 16px;
+     top: 32px;
+     left: 1004px;
+ }
+
+#newOrderText {
+    width: 81px;
+    height: 11px;
+    top: 35px;
+    left: 1030px;
+}
+
+#heart {
+    width: 17px;
+    height: 15px;
+    top: 32px;
+    left: 1145px;
+}
+
+#bell {
+    width: 16px;
+    height: 18px;
+    top: 30px;
+    left: 1186px;
+}
+
+#newMessage {
+    width: 9px;
+    height: 9px;
+    top: 28px;
+    left: 1197px;
+}
+
+#userRoundBorder {
+    width: 32px;
+    height: 32px;
+    top: 21px;
+    left: 1229px;
+}
+
+#avatarEmpty {
+    width: 21px;
+    height: 20px;
+    top: 26px;
+    left: 1234px;
+}
+
+#userChoose {
+    width: 12px;
+    height: 8px;
+    top: 32px;
+    left: 1268px;
+}
+/*Navigation bar end*/
+
+
+.orderRubrics {
+    width: 1200px;
+    height: 80px;
+    left: 100px;
+    top: 81px;
+    position: absolute;
+    background: url("img/BG-white-RecentFinished.svg");
+}
+
+.orderRubrics img {
+    position: absolute;
+}
+
+#recentOrdersText {
+    width: 56px;
+    height: 13px;
+    left: 79px;
+    top: 46px;
+}
+
+#greenLineHoriz {
+    width: 145px;
+    height: 4px;
+    left: 31px;
+    top: 76px;
+}
+
+#finishedOrdersText {
+    width: 67px;
+    height: 13px;
+    left: 209px;
+    top: 45px;
+}
+
+#cancelledOrdersText {
+    width: 74px;
+    height: 13px;
+    left: 322px;
+    top: 45px;
+}
+
+#polygon {
+    width: 45px;
+    height: 43px;
+    left: 206px;
+    top: -8px;
+    z-index: 101;
+}
+
+#idSorted {
+    width: 80px;
+    height: 10px;
+    right: 59px;
+    bottom: 22px;
+}
+
+#sortTypeArrow {
+    width: 12px;
+    height: 8px;
+    right: 33px;
+    bottom: 23px;
+}
+
+.content {
+    width: 1200px;
+    height: 605px;
+    left: 100px;
+    top: 162px;
+    position: absolute;
+    background: url("img/BG-content.svg");
+}
+
+.content img {
+    position: absolute;
+}
+
+#title {
+    width: 30px;
+    height: 13px;
+    left: 56px;
+    top: 23px;
+}
+
+#deadline {
+    width: 58px;
+    height: 13px;
+    left: 426px;
+    top: 23px;
+}
+
+#status {
+    width: 42px;
+    height: 11px;
+    left: 601px;
+    top: 24px;
+}
+
+#assignedTo {
+    width: 76px;
+    height: 15px;
+    left: 798px;
+    top: 23px;
+}
+
+#pricePaid {
+    width: 75px;
+    height: 14px;
+    left: 970px;
+    top: 24px;
+}
+
+#idHeader {
+    width: 12px;
+    height: 10px;
+    left: 1115px;
+    top: 26px;
+}
+
+.content1InProgress {
+    position: absolute;
+    width: 1144px;
+    height: 93px;
+    left: 27px;
+    top: 59px;
+}
+
+.contentInProgress img {
+    position: absolute;
+}
+
+#whatIsState {
+    width: 272px;
+    height: 15px;
+    left: 49px;
+    top: 27px;
+}
+
+#psychologyAnd {
+    width: 305px;
+    height: 15px;
+    left: 50px;
+    top: 52px;
+}
+
+#may28 {
+    width: 104px;
+    height: 13px;
+    left: 399px;
+    top: 30px;
+}
+
+#fourDaysLeft {
+    width: 66px;
+    height: 14px;
+    left: 399px;
+    top: 53px;
+}
+
+#progress {
+    width: 139px;
+    height: 15px;
+    left: 576px;
+    top: 27px;
+}
+
+#greenProgressBar {
+    width: 147px;
+    height: 8px;
+    left: 572px;
+    top: 55px;
+}
+
+#greenProgressBar2 {
+     width: 35px;
+     height: 8px;
+     left: 572px;
+     top: 55px;
+ }
+
+#kinGcheloAva {
+    width: 42px;
+    height: 42px;
+    left: 771px;
+    top: 23px;
+}
+
+#greenPointKingChe {
+    width: 10px;
+    height: 10px;
+    left: 803px;
+    top: 55px;
+}
+
+#kinGcheloName {
+    width: 62px;
+    height: 13px;
+    left: 828px;
+    top: 28px;
+}
+
+#starKingChe {
+    width: 14px;
+    height: 13px;
+    left: 827px;
+    top: 52px;
+}
+
+#score9_8 {
+    width: 19px;
+    height: 11px;
+    left: 847px;
+    top: 54px;
+}
+
+#usd1250 {
+    width: 36px;
+    height: 15px;
+    left: 963px;
+    top: 28px;
+}
+
+#usd100 {
+    width: 29px;
+    height: 15px;
+    left: 963px;
+    top: 52px;
+}
+
+#id34453456 {
+    width: 65px;
+    height: 11px;
+    left: 1051px;
+    top: 41px;
+}
+
+.content2Bidding {
+    position: absolute;
+    width: 1144px;
+    height: 93px;
+    left: 27px;
+    top: 161px;
+}
+
+.content2Bidding img {
+    position: absolute;
+}
+
+#messageBidding {
+    width: 14px;
+    height: 10px;
+    top: 43px;
+    left: -5px;
+    z-index: 101;
+}
+
+#messageBiddingCircle {
+    width: 26px;
+    height: 26px;
+    top: 35px;
+    left: -11px;
+    z-index: 100;
+}
+
+#microeconomic {
+    width: 103px;
+    height: 13px;
+    left: 49px;
+    top: 28px;
+}
+
+#coursework {
+    width: 270px;
+    height: 15px;
+    left: 49px;
+    top: 52px;
+}
+
+#may25 {
+    width: 111px;
+    height: 15px;
+    left: 399px;
+    top: 29px;
+}
+
+#hoursLeft22 {
+    width: 80px;
+    height: 12px;
+    left: 399px;
+    top: 53px;
+}
+
+#bidding {
+    width: 52px;
+    height: 16px;
+    left: 620px;
+    top: 30px;
+}
+
+#blueProgressBar {
+    width: 147px;
+    height: 8px;
+    left: 574px;
+    top: 53px;
+}
+
+#bids35 {
+    width: 48px;
+    height: 13px;
+    left: 827px;
+    top: 38px;
+}
+
+#usd230 {
+    width: 32px;
+    height: 16px;
+    left: 963px;
+    top: 27px;
+}
+
+#usd0 {
+    width: 15px;
+    height: 15px;
+    left: 963px;
+    top: 52px;
+}
+
+#id34453422 {
+    width: 64px;
+    height: 11px;
+    left: 1051px;
+    top: 41px;
+}
+
+.content3Canceled {
+    position: absolute;
+    width: 1144px;
+    height: 93px;
+    left: 27px;
+    top: 265px;
+}
+
+.content3Canceled img {
+    position: absolute;
+}
+
+#whyLying {
+    width: 227px;
+    height: 17px;
+    left: 49px;
+    top: 28px;
+}
+
+
+#essay {
+    width: 249px;
+    height: 15px;
+    left: 50px;
+    top: 52px;
+}
+
+#july02 {
+    width: 109px;
+    height: 13px;
+    left: 399px;
+    top: 29px;
+}
+
+
+#hoursLeft2 {
+    width: 73px;
+    height: 12px;
+    left: 399px;
+    top: 53px;
+}
+
+#july02 {
+    width: 109px;
+    height: 13px;
+    left: 399px;
+    top: 29px;
+}
+
+#canceled {
+    width: 149px;
+    height: 15px;
+    left: 571px;
+    top: 29px;
+}
+
+#redProgressBar {
+     width: 147px;
+     height: 8px;
+     left: 574px;
+     top: 54px;
+ }
+
+#schofieldAva {
+    width: 42px;
+    height: 42px;
+    left: 771px;
+    top: 23px;
+}
+
+#schofieldName {
+    width: 63px;
+    height: 13px;
+    left: 827px;
+    top: 28px;
+}
+
+#starSchofield {
+    width: 14px;
+    height: 13px;
+    left: 827px;
+    top: 52px;
+}
+
+#score8_9 {
+    width: 19px;
+    height: 11px;
+    left: 847px;
+    top: 54px;
+}
+
+#usd30 {
+    width: 23px;
+    height: 15px;
+    left: 963px;
+    top: 28px;
+}
+
+#usd0Muted {
+    width: 15px;
+    height: 15px;
+    left: 963px;
+    top: 52px;
+}
+
+#id34453422Muted {
+     width: 64px;
+     height: 11px;
+     left: 1051px;
+     top: 41px;
+ }
+
+#placeOrder {
+    width: 823px;
+    height: 16px;
+    left: 63px;
+    top: 567px;
+}
